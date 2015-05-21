@@ -9,7 +9,7 @@ This repository contains the implementation of the algorithms presented in the m
 
 There is source code for the five pseudocode variants of the Priority-Flood algorithms presented in the manuscript. All the code can be compiled using Visual Studio 2010. The result is a program called FillDEM.exe. The tool can be run under 64-bit Microsoft Windows.
 
-FillDEM supports GeoTIFF file format through the GDAL library.
+FillDEM supports floating-point GeoTIFF file format through the GDAL library.
 
 The algorithms described in the manuscript can be run using the following command line:
 
