@@ -1,7 +1,7 @@
 # FillDEM
 **Manuscript Title**: An efficient variant of the Priority-Flood algorithm for filling depressions in raster digital elevation models
 
-**Authors**: Guiyun Zhou, Zhongxuan Sun, Suhua Fu, Junjie Zhou
+**Authors**: Guiyun Zhou, Zhongxuan Sun, Suhua Fu
 
 **Corresponding author**: Guiyun Zhou (zhouguiyun@uestc.edu.cn)
 
@@ -21,7 +21,7 @@ The algorithms available are described briefly below and in greater detail in th
 
 **wang**: Use the variant in Wang and Liu (2006) to fill the DEM. The name of the filled dem is ended with "_filled_wang". 
 
-**barnes**: Use the variant in Barnets et al. (2014) to fill the DEM.  The name of the filled dem is ended with "_filled_barnes".
+**barnes**: Use the variant in Barnes et al. (2014) to fill the DEM.  The name of the filled dem is ended with "_filled_barnes".
 
 **zhou-twopass**: Use the two-pass implementation proposed in the manuscript to fill the DEM. The name of the filled dem is ended with "_filled_zhou-twopass".
 
