@@ -5,11 +5,11 @@
 
 **Corresponding author**: Guiyun Zhou (zhouguiyun@uestc.edu.cn)
 
-This repository contains the implementation of the algorithms presented in the manuscript above. These implementations were used in performing the tests described in the manuscript.
+This repository contains the source codes of the algorithms presented in the manuscript above. These codes were used in performing the tests described in the manuscript.
 
-There is source code for the five pseudocode variants of the Priority-Flood algorithms presented in the manuscript. All the code can be compiled using Visual Studio 2010. The result is a program called FillDEM.exe. The tool can be run under 64-bit Microsoft Windows.
+The coded can be compiled on both Windows and Linux platforms. 
 
-FillDEM supports floating-point GeoTIFF file format through the GDAL library.
+FillDEM supports floating-point GeoTIFF file format through the GDAL library. Please include GDAL library into your compilation. GDAL 1.91 was used in our experiments.
 
 The algorithms described in the manuscript can be run using the following command line:
 
@@ -29,6 +29,6 @@ The algorithms available are described briefly below and in greater detail in th
 
 **zhou-direct**: Use the direct implementation proposed in the manuscript to fill the DEM. The name of the filled dem is ended with "_filled_zhou-direct".
 
-<p>The <i>binary64</i> directory contains the executable files for the 64bit Windows. The <i>src</i> folder contains the solution project of the Visual Studio 2010.
+The <i>src</i> folder contains the solution project of the Visual Studio 2010.
 
 <p> The test data used in the manuscript can be downloaded at http://www.mngeo.state.mn.us/. You need ArcGIS to convert the DEM into GeoTIFF format.
