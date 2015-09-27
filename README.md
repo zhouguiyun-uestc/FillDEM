@@ -29,6 +29,4 @@ The algorithms available are described briefly below and in greater detail in th
 
 **zhou-direct**: Use the direct implementation proposed in the manuscript to fill the DEM. The name of the filled dem is ended with "_filled_zhou-direct".
 
-The <i>src</i> folder contains the solution project of the Visual Studio 2010.
-
 <p> The test data used in the manuscript can be downloaded at http://www.mngeo.state.mn.us/. You need ArcGIS to convert the DEM into GeoTIFF format.
