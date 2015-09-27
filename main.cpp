@@ -347,23 +347,23 @@ int main(int argc, char* argv[])
 	}
 	char* method=argv[1];
 	string strFolder = path.substr(0, index);
-	if (strcasecmp(method,"wang")==0)
+	if (strcmp(method,"wang")==0)
 	{
 		FillDEM_Wang(&path[0], &outputFilledPath[0]); //wang 2006
 	}
-	else if (strcasecmp(method,"barnes")==0)
+	else if (strcmp(method,"barnes")==0)
 	{
 		FillDEM_Barnes(&path[0], &outputFilledPath[0]); //barnes 2014
 	}
-	else if(strcasecmp(method,"zhou-twopass")==0)
+	else if(strcmp(method,"zhou-twopass")==0)
 	{
 		FillDEM_Zhou_TwoPass(&path[0], &outputFilledPath[0]); //zhou
 	}
-	else if (strcasecmp(method,"zhou-onepass")==0)
+	else if (strcmp(method,"zhou-onepass")==0)
 	{
 		FillDEM_Zhou_OnePass(&path[0], &outputFilledPath[0]); //zhou
 	}
-	else if(strcasecmp(method,"zhou-direct")==0)
+	else if(strcmp(method,"zhou-direct")==0)
 	{
 		FillDEM_Zhou_Direct(&path[0],&outputFilledPath[0]); //zhou
 	}
